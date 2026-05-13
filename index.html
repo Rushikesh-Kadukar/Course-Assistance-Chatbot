@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LearnForge — Master Your Craft</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+  
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ─── NAV ─── -->
+  <nav>
+    <div class="logo">LearnForge</div>
+    <ul class="nav-links">
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#categories">Categories</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#">Pricing</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="#" class="btn btn-ghost">Log in</a>
+      <a href="#" class="btn btn-primary">Get Started →</a>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <span class="hero-tag">✦ 2,000+ learners this month</span>
+    <h1>Master Skills That<br><span class="highlight">Actually Matter</span></h1>
+    <p>Industry-built courses by practitioners. No fluff, no filler — just skills you can use on Monday morning.</p>
+    <div class="hero-actions">
+      <a href="#courses" class="btn btn-primary" style="padding:13px 28px;font-size:.95rem;">Explore Courses</a>
+      <a href="#" class="btn btn-ghost" style="padding:13px 28px;font-size:.95rem;">Watch Demo ▶</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><div class="stat-num">48K+</div><div class="stat-label">Students Enrolled</div></div>
+      <div class="stat"><div class="stat-num">320+</div><div class="stat-label">Expert Courses</div></div>
+      <div class="stat"><div class="stat-num">4.9★</div><div class="stat-label">Average Rating</div></div>
+      <div class="stat"><div class="stat-num">95%</div><div class="stat-label">Completion Rate</div></div>
+    </div>
+  </section>
+
+  <!-- ─── CATEGORIES ─── -->
+  <section class="categories" id="categories">
+    <div class="section-head">
+      <div>
+        <span class="section-tag">Browse by topic</span>
+        <h2 class="section-title">Find Your Path</h2>
+        <p class="section-sub">From code to creativity, we have a track built for you.</p>
+      </div>
+    </div>
+    <div class="cats-grid">
+      <div class="cat-card"><div class="cat-icon"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div><div class="cat-name">Web Dev</div><div class="cat-count">3 courses</div></div>
+      <div class="cat-card"><div class="cat-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/></svg></div><div class="cat-name">AI / ML</div><div class="cat-count">1 course</div></div>
+      <div class="cat-card"><div class="cat-icon"><svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div><div class="cat-name">Programming</div><div class="cat-count">2 courses</div></div>
+      <div class="cat-card"><div class="cat-icon"><svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg></div><div class="cat-name">Databases</div><div class="cat-count">1 course</div></div>
+      <div class="cat-card"><div class="cat-icon"><svg viewBox="0 0 24 24"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></div><div class="cat-name">Finance</div><div class="cat-count">2 courses</div></div>
+      <div class="cat-card"><div class="cat-icon"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><div class="cat-name">Soft Skills</div><div class="cat-count">1 course</div></div>
+      <div class="cat-card"><div class="cat-icon"><svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><path d="M2 12h20"/></svg></div><div class="cat-name">Career</div><div class="cat-count">2 courses</div></div>
+    </div>
+  </section>
+
+  <!-- ─── COURSES ─── -->
+  <section id="courses">
+    <div class="section-head">
+      <div>
+        <span class="section-tag">Top Rated</span>
+        <h2 class="section-title">Bestselling Courses</h2>
+        <p class="section-sub">Handpicked by our team based on real student outcomes.</p>
+      </div>
+      <a href="#" class="btn btn-ghost">View all courses →</a>
+    </div>
+    <div class="courses-grid">
+
+      <!-- 1. Full-Stack MERN -->
+      <div class="course-card">
+        <div class="course-thumb thumb-1">
+          <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M8 10l3 3-3 3"/><path d="M13 16h3"/></svg>
+          <span class="course-badge badge-hot">&#9733; HOT</span>
+        </div>
+        <div class="course-body">
+          <div class="course-meta">
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 48 hrs</span>
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> 20 modules</span>
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg> Intermediate</span>
+          </div>
+          <div class="course-title">Full-Stack MERN Mastery</div>
+          <div class="course-author">by Arjun Mehta • 5,312 students</div>
+          <div class="course-footer">
+            <div class="course-price"><span class="old">₹4,999</span>₹1,999</div>
+            <div><span class="stars">★★★★★</span> <span style="font-size:.8rem;color:var(--muted)">4.9</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. DSA in Java -->
+      <div class="course-card">
+        <div class="course-thumb thumb-2">
+          <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/><line x1="19" y1="12" x2="5" y2="12" style="display:none"/><path d="M12 3v18"/></svg>
+          <span class="course-badge badge-new">&#10022; NEW</span>
+        </div>
+        <div class="course-body">
+          <div class="course-meta">
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 52 hrs</span>
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> 22 modules</span>
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg> Advanced</span>
+          </div>
+          <div class="course-title">Data Structures & Algorithms in Java</div>
+          <div class="course-author">by Priya Sharma • 7,841 students</div>
+          <div class="course-footer">
+            <div class="course-price"><span class="old">₹5,999</span>₹2,199</div>
+            <div><span class="stars">★★★★★</span> <span style="font-size:.8rem;color:var(--muted)">5.0</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. Stock Market -->
+      <div class="course-card">
+        <div class="course-thumb thumb-3">
+          <svg viewBox="0 0 24 24"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+          <span class="course-badge">BESTSELLER</span>
+        </div>
+        <div class="course-body">
+          <div class="course-meta">
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 30 hrs</span>
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> 14 modules</span>
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg> All Levels</span>
+          </div>
+          <div class="course-title">Stock Market Technical Analysis</div>
+          <div class="course-author">by Vikram Das • 4,560 students</div>
+          <div class="course-footer">
+            <div class="course-price"><span class="old">₹3,999</span>₹1,499</div>
+            <div><span class="stars">★★★★★</span> <span style="font-size:.8rem;color:var(--muted)">4.8</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. English for Corporate -->
+      <div class="course-card">
+        <div class="course-thumb thumb-4">
+          <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          <span class="course-badge badge-new">&#10022; NEW</span>
+        </div>
+        <div class="course-body">
+          <div class="course-meta">
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 18 hrs</span>
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> 10 modules</span>
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg> Beginner</span>
+          </div>
+          <div class="course-title">English for Corporate Placements</div>
+          <div class="course-author">by Rohan Kapoor • 3,210 students</div>
+          <div class="course-footer">
+            <div class="course-price"><span class="old">₹2,999</span>₹999</div>
+            <div><span class="stars">★★★★★</span> <span style="font-size:.8rem;color:var(--muted)">4.7</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5. DBMS -->
+      <div class="course-card">
+        <div class="course-thumb thumb-5">
+          <svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+          <span class="course-badge badge-hot">&#9733; HOT</span>
+        </div>
+        <div class="course-body">
+          <div class="course-meta">
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 26 hrs</span>
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> 12 modules</span>
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg> Intermediate</span>
+          </div>
+          <div class="course-title">Database Management Systems (DBMS)</div>
+          <div class="course-author">by Ananya Patel • 2,987 students</div>
+          <div class="course-footer">
+            <div class="course-price"><span class="old">₹3,499</span>₹1,299</div>
+            <div><span class="stars">★★★★★</span> <span style="font-size:.8rem;color:var(--muted)">4.8</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6. Advanced React & Tailwind -->
+      <div class="course-card">
+        <div class="course-thumb thumb-6">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="2"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" fill="none"/><path d="M2 12c0-1.5 2.5-3 6-4s6.5-.5 8 1-1 5-4 7-8.5 1.5-10-4z"/><path d="M22 12c0 1.5-2.5 3-6 4s-6.5.5-8-1 1-5 4-7 8.5-1.5 10 4z"/></svg>
+          <span class="course-badge">BESTSELLER</span>
+        </div>
+        <div class="course-body">
+          <div class="course-meta">
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 38 hrs</span>
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> 16 modules</span>
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg> Advanced</span>
+          </div>
+          <div class="course-title">Advanced React & Tailwind CSS</div>
+          <div class="course-author">by Siddharth Rao • 4,102 students</div>
+          <div class="course-footer">
+            <div class="course-price"><span class="old">₹4,499</span>₹1,799</div>
+            <div><span class="stars">★★★★★</span> <span style="font-size:.8rem;color:var(--muted)">4.9</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 7. Wealth Compounding -->
+      <div class="course-card">
+        <div class="course-thumb thumb-1">
+          <svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          <span class="course-badge badge-new">&#10022; NEW</span>
+        </div>
+        <div class="course-body">
+          <div class="course-meta">
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 22 hrs</span>
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> 11 modules</span>
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg> All Levels</span>
+          </div>
+          <div class="course-title">Wealth Compounding & Investing</div>
+          <div class="course-author">by Meera Joshi • 3,670 students</div>
+          <div class="course-footer">
+            <div class="course-price"><span class="old">₹3,499</span>₹1,199</div>
+            <div><span class="stars">★★★★★</span> <span style="font-size:.8rem;color:var(--muted)">4.8</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 8. Java from Scratch -->
+      <div class="course-card">
+        <div class="course-thumb thumb-2">
+          <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          <span class="course-badge badge-hot">&#9733; HOT</span>
+        </div>
+        <div class="course-body">
+          <div class="course-meta">
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 44 hrs</span>
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> 18 modules</span>
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg> Beginner</span>
+          </div>
+          <div class="course-title">Java Programming from Scratch</div>
+          <div class="course-author">by Rahul Nair • 6,450 students</div>
+          <div class="course-footer">
+            <div class="course-price"><span class="old">₹4,999</span>₹1,699</div>
+            <div><span class="stars">★★★★★</span> <span style="font-size:.8rem;color:var(--muted)">4.9</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 9. Hackathon -->
+      <div class="course-card">
+        <div class="course-thumb thumb-3">
+          <svg viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          <span class="course-badge">BESTSELLER</span>
+        </div>
+        <div class="course-body">
+          <div class="course-meta">
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 14 hrs</span>
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> 8 modules</span>
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg> All Levels</span>
+          </div>
+          <div class="course-title">Hackathon Winning Strategies</div>
+          <div class="course-author">by Kiran Desai • 2,130 students</div>
+          <div class="course-footer">
+            <div class="course-price"><span class="old">₹2,499</span>₹799</div>
+            <div><span class="stars">★★★★★</span> <span style="font-size:.8rem;color:var(--muted)">4.9</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 10. Tech Internship -->
+      <div class="course-card">
+        <div class="course-thumb thumb-4">
+          <svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><line x1="12" y1="12" x2="12" y2="12"/><path d="M12 12h.01"/><path d="M2 12h20"/></svg>
+          <span class="course-badge badge-new">&#10022; NEW</span>
+        </div>
+        <div class="course-body">
+          <div class="course-meta">
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 16 hrs</span>
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> 9 modules</span>
+            <span><svg viewBox="0 0 24 24" class="meta-icon"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg> Beginner</span>
+          </div>
+          <div class="course-title">Tech Internship Blueprint</div>
+          <div class="course-author">by Sneha Agarwal • 1,890 students</div>
+          <div class="course-footer">
+            <div class="course-price"><span class="old">₹2,999</span>₹899</div>
+            <div><span class="stars">★★★★★</span> <span style="font-size:.8rem;color:var(--muted)">4.8</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── TESTIMONIALS ─── -->
+  <section class="testimonials" id="testimonials">
+    <div class="section-head">
+      <div>
+        <span class="section-tag">Student Stories</span>
+        <h2 class="section-title">Real People. Real Results.</h2>
+        <p class="section-sub">Don't take our word for it — here's what our community says.</p>
+      </div>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="testi-quote">"</div>
+        <p class="testi-text">I landed my first developer job 3 months after finishing the Next.js course. The projects are production-level and the support chat was incredibly helpful.</p>
+        <div class="testi-author">
+          <div class="avatar av1">RK</div>
+          <div><div class="testi-name">Rahul K.</div><div class="testi-role">Frontend Dev @ Razorpay</div></div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-quote">"</div>
+        <p class="testi-text">The AI Agents course blew my mind. I shipped a working automation tool for my company in week 3. The chatbot support answered all my late-night questions.</p>
+        <div class="testi-author">
+          <div class="avatar av2">SA</div>
+          <div><div class="testi-name">Sneha A.</div><div class="testi-role">ML Engineer @ Swiggy</div></div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-quote">"</div>
+        <p class="testi-text">Passed my AWS certification on first attempt. The instructor's explanations are crystal clear and the community is super active and supportive.</p>
+        <div class="testi-author">
+          <div class="avatar av3">DM</div>
+          <div><div class="testi-name">Dev M.</div><div class="testi-role">Cloud Architect @ Infosys</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CTA ─── -->
+  <div class="cta-band">
+    <h2>Start Learning <span style="background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Today</span></h2>
+    <p>Join 48,000+ learners. Cancel anytime. Lifetime access to all course materials.</p>
+    <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+      <a href="#" class="btn btn-primary" style="padding:14px 32px;font-size:1rem;">Get Full Access — ₹999/mo</a>
+      <a href="#" class="btn btn-ghost" style="padding:14px 32px;font-size:1rem;">Browse Free Courses</a>
+    </div>
+  </div>
+
+  <!-- ─── FOOTER ─── -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">LearnForge</div>
+        <p>Built for learners who want to move fast, build real things, and get hired.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Platform</h4>
+        <a href="#">Browse Courses</a>
+        <a href="#">Become Instructor</a>
+        <a href="#">LearnForge Pro</a>
+        <a href="#">Enterprise</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#">About Us</a>
+        <a href="#">Blog</a>
+        <a href="#">Careers</a>
+        <a href="#">Press</a>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <a href="#">Help Center</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Refund Policy</a>
+        <a href="#">Privacy</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 LearnForge. All rights reserved.</span>
+      <span>Made with ♥ in India</span>
+    </div>
+  </footer>
+
+  <div id="n8n-chat"></div>
+
+  <!-- Link to external JS -->
+  <script type="module" src="script.js"></script>
+</body>
+</html>
